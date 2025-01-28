@@ -1,0 +1,14 @@
+.nbars {
+    animation: spin-once .3s ease-in-out;
+}
+@keyframes spin-once {
+    to {
+        transform: rotateY(180deg);
+    }
+}
+.nvm  {
+    animation: alter .5s ease-in;
+}
+@keyframes alter {
+    0% { transform: translateY(-100%); }
+}
